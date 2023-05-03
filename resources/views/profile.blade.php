@@ -20,6 +20,7 @@
                         <th scope="col">Title</th>
                         <th scope="col">Genre</th>
                         <th scope="col">Director</th>
+                        <th scope="col">Created at</th>
                         <th scope="col">Action</th>
                       </tr>
                     </thead>
@@ -30,6 +31,7 @@
                         <td>{{$trailer->title}}</td>
                         <td>{{$trailer->genre}}</td>
                         <td>{{$trailer->director}}</td>
+                        <td>{{$trailer->created_at}}</td>
                         <td>
                             <a href="{{route('trailers.show', $trailer)}}" class="my-1 mx-3 btn btn-sm btn-success text-center text-white"><i class="fa-solid fa-video text-white"></i></a>
                             <a href="{{route('trailers.edit', $trailer)}}" class="my-1 btn btn-sm btn-warning text-center text-white"><i class="fa-solid fa-pen-to-square text-white"></i></a>

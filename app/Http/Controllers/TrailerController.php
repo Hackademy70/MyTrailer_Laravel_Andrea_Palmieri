@@ -27,6 +27,7 @@ class TrailerController extends Controller
                 'url' => $request->input('url')
             ]
         );
+
         return redirect()->route('home')->with('message', 'Il tuo Trailer è stato aggiunto correttamente!');
     }
 

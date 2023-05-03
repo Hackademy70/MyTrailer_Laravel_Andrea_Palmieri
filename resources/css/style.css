@@ -10,6 +10,10 @@ body{
     color: white !important;
 }
 
+.foo-hov:hover{
+    color: white !important;
+}
+
 .masthead {
     background-image: url('/public/img/masthead.jpg');
     height: 70vh;
